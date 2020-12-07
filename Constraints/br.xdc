@@ -46,3 +46,53 @@ set_property -dict { PACKAGE_PIN R7    IOSTANDARD LVCMOS33 } [get_ports { brA45 
 set_property -dict { PACKAGE_PIN R6    IOSTANDARD LVCMOS33 } [get_ports { brA46 }];  # A-Bank, Port 46
 set_property -dict { PACKAGE_PIN T9    IOSTANDARD LVCMOS33 } [get_ports { brA48 }];  # A-Bank, Port 48
 set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { brA49 }];  # A-Bank, Port 49
+
+
+# ===================================================================================================
+# B-Bank I/O Pins
+# ===================================================================================================
+#-=-=-=-=-=-=-#
+# Bottom  Row #
+#-=-=-=-=-=-=-#
+set_property -dict { PACKAGE_PIN D1    IOSTANDARD LVCMOS33 } [get_ports { brB2 }];   # B-Bank, Port 2
+set_property -dict { PACKAGE_PIN E2    IOSTANDARD LVCMOS33 } [get_ports { brB3 }];   # B-Bank, Port 3
+set_property -dict { PACKAGE_PIN A2    IOSTANDARD LVCMOS33 } [get_ports { brB5 }];   # B-Bank, Port 5
+set_property -dict { PACKAGE_PIN B2    IOSTANDARD LVCMOS33 } [get_ports { brB6 }];   # B-Bank, Port 6
+
+set_property -dict { PACKAGE_PIN F1    IOSTANDARD LVCMOS33 } [get_ports { brB8 }];   # B-Bank, Port 8
+set_property -dict { PACKAGE_PIN F2    IOSTANDARD LVCMOS33 } [get_ports { brB9 }];   # B-Bank, Port 9
+set_property -dict { PACKAGE_PIN F3    IOSTANDARD LVCMOS33 } [get_ports { brB11 }];  # B-Bank, Port 11
+set_property -dict { PACKAGE_PIN F4    IOSTANDARD LVCMOS33 } [get_ports { brB12 }];  # B-Bank, Port 12
+
+set_property -dict { PACKAGE_PIN A3    IOSTANDARD LVCMOS33 } [get_ports { brB14 }];  # B-Bank, Port 14
+set_property -dict { PACKAGE_PIN B4    IOSTANDARD LVCMOS33 } [get_ports { brB15 }];  # B-Bank, Port 15
+set_property -dict { PACKAGE_PIN A4    IOSTANDARD LVCMOS33 } [get_ports { brB17 }];  # B-Bank, Port 17
+set_property -dict { PACKAGE_PIN A5    IOSTANDARD LVCMOS33 } [get_ports { brB18 }];  # B-Bank, Port 18
+
+set_property -dict { PACKAGE_PIN B5    IOSTANDARD LVCMOS33 } [get_ports { brB20 }];  # B-Bank, Port 20
+set_property -dict { PACKAGE_PIN B6    IOSTANDARD LVCMOS33 } [get_ports { brB21 }];  # B-Bank, Port 21
+set_property -dict { PACKAGE_PIN A7    IOSTANDARD LVCMOS33 } [get_ports { brB23 }];  # B-Bank, Port 23
+set_property -dict { PACKAGE_PIN B7    IOSTANDARD LVCMOS33 } [get_ports { brB24 }];  # B-Bank, Port 24
+
+#-=-=-=-=-#
+# Top Row #
+#-=-=-=-=-#
+set_property -dict { PACKAGE_PIN C7    IOSTANDARD LVCMOS33 } [get_ports { brB27 }];  # B-Bank, Port 27
+set_property -dict { PACKAGE_PIN C6    IOSTANDARD LVCMOS33 } [get_ports { brB28 }];  # B-Bank, Port 28
+set_property -dict { PACKAGE_PIN D6    IOSTANDARD LVCMOS33 } [get_ports { brB30 }];  # B-Bank, Port 30
+set_property -dict { PACKAGE_PIN D5    IOSTANDARD LVCMOS33 } [get_ports { brB31 }];  # B-Bank, Port 31
+
+set_property -dict { PACKAGE_PIN F5    IOSTANDARD LVCMOS33 } [get_ports { brB33 }];  # B-Bank, Port 33
+set_property -dict { PACKAGE_PIN E5    IOSTANDARD LVCMOS33 } [get_ports { brB34 }];  # B-Bank, Port 34
+set_property -dict { PACKAGE_PIN G5    IOSTANDARD LVCMOS33 } [get_ports { brB36 }];  # B-Bank, Port 36
+set_property -dict { PACKAGE_PIN G4    IOSTANDARD LVCMOS33 } [get_ports { brB37 }];  # B-Bank, Port 37
+
+set_property -dict { PACKAGE_PIN D4    IOSTANDARD LVCMOS33 } [get_ports { brB39 }];  # B-Bank, Port 39
+set_property -dict { PACKAGE_PIN C4    IOSTANDARD LVCMOS33 } [get_ports { brB40 }];  # B-Bank, Port 40
+set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { brB42 }];  # B-Bank, Port 42
+set_property -dict { PACKAGE_PIN D3    IOSTANDARD LVCMOS33 } [get_ports { brB43 }];  # B-Bank, Port 43
+
+set_property -dict { PACKAGE_PIN C3    IOSTANDARD LVCMOS33 } [get_ports { brB45 }];  # B-Bank, Port 45
+set_property -dict { PACKAGE_PIN C2    IOSTANDARD LVCMOS33 } [get_ports { brB46 }];  # B-Bank, Port 46
+set_property -dict { PACKAGE_PIN C1    IOSTANDARD LVCMOS33 } [get_ports { brB48 }];  # B-Bank, Port 48
+set_property -dict { PACKAGE_PIN B1    IOSTANDARD LVCMOS33 } [get_ports { brB49 }];  # B-Bank, Port 49
