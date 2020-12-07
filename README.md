@@ -1,5 +1,8 @@
 Verilog for Alchitry
 
+### ATTENTION ###
+This Repo is actively under developement at this time and is brand new.
+
 TL;DR;
   The Alchitry AU is a POS when it comes to using it with verilog and Alchitry along with Sparkfun could care less about providing decent documentation/tutorials. Hopefully this repository can help new people get started using this board with Verilog and Alchitry's IDE called Alchity Labs. Yeah, you probably guessed right or you're just in denial right now, in order to program the Alchitry boards you are stuck with the Alchitry Labs IDE as the board is custom made to work with that only and can not be used with Vivado even though it's a Xilink chip. 
 
